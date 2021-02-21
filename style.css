@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 25%;
+    margin-top: 1%;
+}
+
+img {
+    width: 25%;
+    margin-top: 10%;
+}
+
+header, nav {
+    text-align: center;
+}
+
+header, nav, main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(29, 212, 29);
+    padding: 10px;
+}
+
+h1 {
+    margin: 0px;
+    color:rgb(29, 212, 29);
+}
+h2 {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+header, main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    color: white;
+}
+
+p {
+    margin: 0px;
+    font-weight: 300;
+}
+
+#ChargeStatus1 {
+    background-color: rgb(248, 193, 41);
+    width: 40%;
+}
+
+#ChargeStatus2 {
+    background-color: rgb(29, 212, 29);
+    width: 65%;
+}
+
+#ChargeStatus3 {
+    background-color: rgb(248, 41, 58);
+    width: 20%;
+}
+
+.Prenotazioni > div {
+ height: 25px;
+ border-radius: 5px;
+}
